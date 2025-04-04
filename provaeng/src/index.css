@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Estilos para a Árvore Binária de Busca */
+.bst-container {
+  text-align: center;
+}
+
+.node {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.node-value {
+  font-size: 20px;
+}
+
+.children {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.left-child, .right-child {
+  margin: 0 20px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
